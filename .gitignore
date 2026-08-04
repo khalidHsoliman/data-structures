@@ -1,0 +1,24 @@
+build/
+node_modules/
+dist/
+.DS_Store
+
+# compiled output (VS Code's cl.exe task builds next to the source)
+*.exe
+*.obj
+*.ilk
+*.pdb
+*.o
+*.a
+*.lib
+*.dll
+
+# in-source CMake leftovers
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+
+# editor / OS
+.vs/
+.idea/
+Thumbs.db
