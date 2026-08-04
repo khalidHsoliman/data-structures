@@ -1,5 +1,7 @@
 # Data Structures
 
+### [cpp-data-structures.pages.dev](https://cpp-data-structures.pages.dev/)
+
 A series working through Sedgewick's *Algorithms, Part I* in C++, one post at a time.
 The blog and the code it talks about live in the same repo, so a post and its code are always in the same commit.
 
@@ -12,7 +14,7 @@ The blog and the code it talks about live in the same repo, so a post and its co
 
 | # | Post | Code |
 |---|---|---|
-| 02 | Analysis of algorithms | [`code/02-analysis-of-algorithms`](code/02-analysis-of-algorithms) |
+| 02 | [Analysis of algorithms](https://cpp-data-structures.pages.dev/blog/02-analysis-of-algorithms/) | [`code/02-analysis-of-algorithms`](code/02-analysis-of-algorithms) |
 
 ## Building the code
 
