@@ -33,7 +33,7 @@ double time_it(std::size_t n) {
 
 int main() {
     double previous = 0.0;
-    for (std::size_t n = 250; n <= 4000; n *= 2) {
+    for (std::size_t n = 250; n <= 8000; n *= 2) {
         double seconds = time_it(n);
         if (previous > 0.0)
             std::printf("%6zu %10.3f %8.1f\n", n, seconds, seconds / previous);

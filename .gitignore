@@ -18,7 +18,11 @@ CMakeCache.txt
 CMakeFiles/
 cmake_install.cmake
 
+# personal notes, not part of the series
+publishing-workflow.md
+
 # editor / OS
+/.vscode/
 .vs/
 .idea/
 Thumbs.db
