@@ -6,7 +6,9 @@ tags: ["cpp", "algorithms", "computerscience", "datastructures"]
 series: "Data Structures"
 ---
 
-So, it has been a while since the first post in this series. Six years, to be precise. In the meantime I have been writing C++ professionally in CAD, 3D tooling and medical imaging, which means I got to watch a lot of the theory in these posts either save a project or completely fail to matter, and I have opinions about which is which now. That turns out to be a much better position to write from, so let's continue.
+So, it has been a while since the first post in this series. Six years, to be precise. I wrote an [introduction to this series](https://dev.to/khalidhsoliman/data-structures-intro-5d86) on dev.to, covering why I wanted to write it, who it's for, and why everything here is built as an abstract data type in C++ rather than pulled out of the STL. That's all still true, so rather than repeat it, go read it if you want the framing. This is where the actual work starts.
+
+In the years since, I have been writing performance-critical C++ in CAD, 3D tooling and medical imaging, which means I got to watch a lot of this theory either save a project or completely fail to matter, and I have opinions about which is which now. Those opinions will show up throughout.
 
 Before we start implementing anything, we need a way to talk about **how fast** our code is, and more importantly, a way to talk about it that still means something when the input gets bigger. That's what this post is about.
 
