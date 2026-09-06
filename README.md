@@ -15,6 +15,7 @@ The blog and the code it talks about live in the same repo, so a post and its co
 | # | Post | Code |
 |---|---|---|
 | 02 | [Analysis of algorithms](https://cpp-data-structures.pages.dev/blog/02-analysis-of-algorithms/) | [`code/02-analysis-of-algorithms`](code/02-analysis-of-algorithms) |
+| 03 | [Union-find](https://cpp-data-structures.pages.dev/blog/03-union-find/) | [`code/03-union-find`](code/03-union-find) |
 
 ## Building the code
 

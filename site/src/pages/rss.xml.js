@@ -4,6 +4,7 @@ import { SITE_DESCRIPTION, SITE_TITLE } from '../consts';
 
 export async function GET(context) {
 	const posts = await getCollection('blog');
+	posts.sort((a, b) => b.data.pubDate - a.data.pubDate); // newest first, like the blog index
 	return rss({
 		title: SITE_TITLE,
 		description: SITE_DESCRIPTION,
