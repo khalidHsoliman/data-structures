@@ -1,0 +1,21 @@
+---
+import BaseHead from '../components/BaseHead.astro';
+import Footer from '../components/Footer.astro';
+import Header from '../components/Header.astro';
+import { SITE_TITLE } from '../consts';
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<BaseHead title={`Not found | ${SITE_TITLE}`} description="That page does not exist." />
+	</head>
+	<body>
+		<Header />
+		<main>
+			<h1>Not found</h1>
+			<p>That page does not exist. Try <a href="/blog/">the posts</a> or the <a href="/">home page</a>.</p>
+		</main>
+		<Footer />
+	</body>
+</html>

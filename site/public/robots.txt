@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://cpp-data-structures.pages.dev/sitemap-index.xml
