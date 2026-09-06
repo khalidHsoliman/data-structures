@@ -1,9 +1,11 @@
 ---
+import { SITE_AUTHOR } from '../consts';
+
 const today = new Date();
 ---
 
 <footer>
-	&copy; {today.getFullYear()} Khalid H. Soliman. All rights reserved.
+	&copy; {today.getFullYear()} {SITE_AUTHOR}. All rights reserved.
 	<div class="social-links">
 		<a href="/rss.xml">
 			<span class="sr-only">Subscribe by RSS</span>

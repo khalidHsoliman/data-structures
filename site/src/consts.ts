@@ -4,3 +4,4 @@
 export const SITE_TITLE = 'Data Structures';
 export const SITE_DESCRIPTION =
 	"Working through Sedgewick's Algorithms, Part I in C++, one post at a time, with the code for every post.";
+export const SITE_AUTHOR = 'Khalid H. Soliman';
